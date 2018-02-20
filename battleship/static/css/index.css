@@ -1,0 +1,24 @@
+#player_grid,#ia_grid {
+  background-size: 100%;
+}
+
+#player_grid,#player_container {
+  float:left;
+}
+
+#ai_grid,#ai_container {
+  float:right;
+}
+
+th {
+  border: 1px solid black;
+}
+
+th.unplaced:hover {
+  background-color: rgb(224,224,224);
+}
+
+th.placed {
+  background-color: rgb(224,224,224);
+  color:rgb(224,224,224);
+}
